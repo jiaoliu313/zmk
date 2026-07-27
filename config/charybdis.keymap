@@ -102,7 +102,7 @@
 &kp Q       &kp W       &kp E        &kp R           &kp T             /**/   &kp Y       &kp U         &kp I        &kp O       &kp P
 &hml LGUI A &hml LALT S &hml LCTRL D &hml LSHIFT F   &kp G             /**/   &kp H       &hmr RSHIFT J &hmr RCTRL K &hmr RALT L &hmr RGUI SEMI
 &mt LC(Z) Z &mt LC(X) X &mt LC(C) C  &mt LC(V) V     &kp B             /**/   &kp N       &kp M         &kp COMMA    &kp DOT     &kp FSLH
-                        &lt MFUN ESC &lt NAV SPACE   &lt MOUSE TAB     /**/   &lt SYM RET &lt NUM BSPC
+                        &lt MFUN ESC &kp SPACE   &lt MOUSE TAB     /**/   &lt SYM RET &lt NUM BSPC
             >;
         };
 
