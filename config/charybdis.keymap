@@ -101,8 +101,8 @@
 // ---------------------------------     ---------------------------------
 &kp Q       &kp W       &kp E        &kp R           &kp T             /**/   &kp Y       &kp U         &kp I        &kp O       &kp P
 &hml LGUI A &hml LALT S &hml LCTRL D &hml LSHIFT F   &kp G             /**/   &kp H       &hmr RSHIFT J &hmr RCTRL K &hmr RALT L &hmr RGUI SEMI
-&mt LC(Z) Z &kp X       &mt LC(C) C  &mt LC(V) V     &kp B             /**/   &kp N       &kp M         &kp COMMA    &kp DOT     &kp FSLH
-                        &lt MFUN ESC &lt NAV SPACE     &lt MOUSE TAB   /**/   &lt SYM RET &lt NUM BSPC
+&mt LC(Z) Z &mt LC(X) X &mt LC(C) C  &mt LC(V) V     &kp B             /**/   &kp N       &kp M         &kp COMMA    &kp DOT     &kp FSLH
+                        &lt MFUN ESC &lt NAV SPACE   &lt MOUSE TAB     /**/   &lt SYM RET &lt NUM BSPC
             >;
         };
 
@@ -129,10 +129,10 @@
         mouse {
             display-name = "Mouse";
             bindings = <
-&none &none &none &none &none   /**/   &none          &none    &none          &none        &none
-&none &none &none &none &none   /**/   &msc SCRL_LEFT &mkp MB1 &mkp MB3       &mkp MB2     &msc SCRL_RIGHT
-&none &none &none &none &none   /**/   &none          &mkp MB4 &msc SCRL_DOWN &msc SCRL_UP &mkp MB5
-            &none &none &none   /**/   &none          &none
+&none &none    &kp UP   &none     &none   /**/   &none          &none    &none          &none        &none
+&none &kp LEFT &kp DOWN &kp RIGHT &none   /**/   &msc SCRL_LEFT &mkp MB1 &mkp MB3       &mkp MB2     &msc SCRL_RIGHT
+&none &none    &none    &none     &none   /**/   &none          &mkp MB4 &msc SCRL_DOWN &msc SCRL_UP &mkp MB5
+               &none    &none     &none   /**/   &none          &none
             >;
         };
         sym {
