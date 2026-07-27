@@ -129,9 +129,9 @@
         mouse {
             display-name = "Mouse";
             bindings = <
-&kp &kp LC(Z)   &kp LC(C)  &kp UP       &kp LC(V)   &kp LC(Y)  /**/   &none          &none    &none          &none        &none
-&kp &kp LC(X)   &kp LEFT   &kp DOWN     &kp RIGHT     &kp END     /**/   &msc SCRL_LEFT &mkp MB1 &mkp MB3       &mkp MB2     &msc SCRL_RIGHT
-&kp DEL      &kp INS       &kp PG_DN    &kp PG_UP     &none       /**/   &none          &mkp MB4 &msc SCRL_DOWN &msc SCRL_UP &mkp MB5
+&kp LC(Z)   &kp LC(C)  &kp UP       &kp LC(V)     &kp LC(Y)   /**/   &none          &none    &none          &none        &none
+&kp LC(X)   &kp LEFT   &kp DOWN     &kp RIGHT     &kp END     /**/   &msc SCRL_LEFT &mkp MB1 &mkp MB3       &mkp MB2     &msc SCRL_RIGHT
+&kp DEL      &kp INS   &kp PG_DN    &kp PG_UP     &none       /**/   &none          &mkp MB4 &msc SCRL_DOWN &msc SCRL_UP &mkp MB5
                            &none        &none         &none       /**/   &kp RET        &kp BSPC
             >;
         };
