@@ -139,8 +139,8 @@
         sym {
             display-name = "Sym";
             bindings = <
-&kp LBRC  &LBKT           &kp KP_MULTIPLY &RBKT             &kp RBRC      /**/   &none &none      &none     &none    &kp LBKT
-&kp DQT   &kp LBRC        &kp SEMICOLON       &RBRC             &kp KP_PLUS   /**/   &none &kp RSHIFT &kp RCTRL &kp RALT &kp SQT
+&kp LBRC  &kp LBKT           &kp KP_MULTIPLY &kp RBKT             &kp RBRC      /**/   &none &none      &none     &none    &kp LBKT
+&kp DQT   &kp LBRC        &kp SEMICOLON       &kp RBRC             &kp KP_PLUS   /**/   &none &kp RSHIFT &kp RCTRL &kp RALT &kp SQT
 &kp TILDE &kp LESS_THAN   &kp EQUAL          &kp GREATER_THAN  &kp PIPE      /**/   &none &none      &none     &none    &kp RBKT
                                   &kp LPAR        &kp RPAR  &kp UNDER     /**/   &none &none
             >;
