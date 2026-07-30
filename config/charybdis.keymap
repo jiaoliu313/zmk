@@ -138,10 +138,10 @@
         sym {
             display-name = "Sym";
             bindings = <    
-&kp HASH     &kp LBKT        &kp KP_MULTIPLY     &kp RBKT           &kp MINUS      /**/   &kp COLON       &kp LPAR            &kp AT_SIGN    &kp RPAR     &kp LBKT
-&kp DOLLAR   &kp LBRC        &kp SEMICOLON       &kp RBRC           &kp KP_PLUS    /**/   &kp QUESTION    &kp DOUBLE_QUOTES   &kp UNDER      &kp PRCNT    &kp SQT
-&kp TILDE    &kp LESS_THAN   &kp EQUAL           &kp GREATER_THAN   &kp SLASH      /**/   &kp EXCLAMATION &kp SINGLE_QUOTE    &kp COMMA      &kp DOT      &kp RBKT
-                                  &kp PIPE       &kp BACKSLASH      &kp CARET      /**/   &none    &kp AMPERSAND
+&kp KP_MULTIPLY    &kp LBKT        &kp HASH            &kp RBKT           &kp MINUS      /**/   &kp COLON       &kp LPAR            &kp AT_SIGN    &kp RPAR     &kp LBKT
+&kp DOLLAR         &kp LBRC        &kp SEMICOLON       &kp RBRC           &kp KP_PLUS    /**/   &kp QUESTION    &kp DOUBLE_QUOTES   &kp UNDER      &kp PRCNT    &kp SQT
+&kp TILDE          &kp LESS_THAN   &kp EQUAL           &kp GREATER_THAN   &kp SLASH      /**/   &kp EXCLAMATION &kp SINGLE_QUOTE    &kp COMMA      &kp DOT      &kp RBKT
+                                   &kp PIPE            &kp BACKSLASH      &kp CARET      /**/   &none           &kp AMPERSAND
             >;
         };
 
