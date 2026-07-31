@@ -148,10 +148,10 @@
         num {
             display-name = "Num";
             bindings = <
-&kp KP_MULTIPLY  &kp N7 &kp N8  &kp N9 &kp MINUS     /**/   &none     &none        &kp UP     &none      &none
-&none            &kp N4 &kp N5  &kp N6 &kp KP_PLUS   /**/   &kp RET   &kp LEFT     &kp DOWN   &kp RIGHT  &kp LC(LSHIFT)
-&none            &kp N1 &kp N2  &kp N3 &kp SLASH     /**/   &none &kp BSPC         &kp DEL    &kp SPACE  &none
-                 &kp DOT &kp N0 &kp EQUAL            /**/   &none &none
+&kp KP_MULTIPLY  &kp N7 &kp N8  &kp N9 &kp MINUS     /**/   &none     &kp DEL      &kp UP     &kp RET   &none
+&none            &kp N4 &kp N5  &kp N6 &kp KP_PLUS   /**/   &none     &kp LEFT     &kp DOWN   &kp RIGHT  &kp LC(LSHIFT)
+&none            &kp N1 &kp N2  &kp N3 &kp SLASH     /**/   &none     &kp BSPC     &kp DEL    &kp SPACE      &none
+                 &kp DOT &kp N0 &kp EQUAL            /**/   &none     &none
             >;
         };
 
